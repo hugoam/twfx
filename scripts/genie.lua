@@ -19,6 +19,7 @@ BUILD_DIR = path.join(path.getabsolute(".."), "build")
 
 dofile "toolchain.lua"
 
+-- reflection is needed for gltf loader
 --NO_REFL = true
 
 dofile(path.join(TWO_DIR, "scripts/two.lua"))
