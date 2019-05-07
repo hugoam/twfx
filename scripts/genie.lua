@@ -54,3 +54,5 @@ end
 group "bin"
 two_example("xx_three", all, {})
 
+project "xx_three"
+    defines { "UI=0" }
