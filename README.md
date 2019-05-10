@@ -1,4 +1,4 @@
-# [tgfx](https://github.com/hugoam/tgfx)
+![libtwfx](media/libtwfx.png?raw=true)
 
 tgfx is a full-feature mid-level rendering library built on top of [bgfx](https://github.com/bkaradzic/bgfx)  
 it is part of the encompassing [two](https://github.com/hugoam/two) library 
