@@ -3,13 +3,10 @@
 tgfx is a full-feature mid-level rendering library built on top of [bgfx](https://github.com/bkaradzic/bgfx)  
 it is part of the encompassing [two](https://github.com/hugoam/two) library 
 
-![styles](media/samples0.gif?raw=true)
+![samples](media/samples0.gif?raw=true)
 
 # building
-two is built with [GENie](https://github.com/bkaradzic/GENie) build system, which is based on premake and consists of a bunch of lua scripts. The GENie binaries needed by two for windows and linux are included for convenience in the `bin` folder.  
-To get a headstart and build tgfx you should clone this repository, and run GENie which will generate projects for two libraries and for the examples.
-
-The build instructions for linux and gcc look like:
+Here are the basic build instructions to get tgfx up and running on linux/osx/windows:
 - `git clone --recursive https://github.com/hugoam/tgfx`
 - `cd tgfx`
 - for linux (make):
